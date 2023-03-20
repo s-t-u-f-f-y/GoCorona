@@ -25,6 +25,7 @@ function parallax(e){
     });
 }
 
+
 const goTopBtn = document.querySelector(".go-top");
 
 window.addEventListener("scroll", scrollEvent);
@@ -49,4 +50,4 @@ function goTop() {
       window.scrollBy(0, -25); 
       setTimeout(goTop, 0); 
     }
-}
+  }
